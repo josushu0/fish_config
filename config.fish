@@ -13,3 +13,7 @@ fish_add_path -aP $HOME/.local/share/pnpm
 function fish_greeting
   krabby random --no-gmax
 end
+
+# KEYBINDS #
+bind \et 'toggle_theme'
+
