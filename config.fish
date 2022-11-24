@@ -14,6 +14,10 @@ function fish_greeting
   krabby random --no-gmax
 end
 
+# PROMPT #
+set -gx STARSHIP_CONFIG $HOME/.config/starship/starship.toml
+starship init fish | source
+
 # KEYBINDS #
 bind \et 'toggle_theme'
 
