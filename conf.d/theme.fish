@@ -1,8 +1,23 @@
 # SET THEME #
-set current_gtk_theme (gsettings get org.gnome.desktop.interface color-scheme)
-
-if [ $current_gtk_theme = "'prefer-light'" ]
-	fish_config theme choose "Catppuccin Latte"
-else
-	fish_config theme choose "Catppuccin Mocha"
-end
+set --global fish_color_normal normal
+set --global fish_color_command brcyan
+set --global fish_color_param magenta
+set --global fish_color_keyword red
+set --global fish_color_quote green
+set --global fish_color_redirection brmagenta
+set --global fish_color_end bryellow
+set --global fish_color_error red
+set --global fish_color_gray brwhite
+set --global fish_color_selection --background=black
+set --global fish_color_search_match --background=black
+set --global fish_color_operator brmagenta
+set --global fish_color_escape magenta
+set --global fish_color_autosuggestion white
+set --global fish_color_cancel magenta
+set --global fish_color_cwd yellow
+set --global fish_color_user cyan
+set --global fish_color_host brcyan
+set --global fish_pager_color_progress white
+set --global fish_pager_color_prefix brmagenta
+set --global fish_pager_color_completion normal
+set --global fish_pager_color_description white
