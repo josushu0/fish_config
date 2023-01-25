@@ -7,9 +7,10 @@ end
 set -gx PNPM_HOME $HOME/.local/share/pnpm/
 set -gx STARSHIP_CONFIG $HOME/.config/starship/starship.toml
 set -gx DENO_INSTALL $HOME/.deno
+set -gx HELIX_RUNTIME $HOME/.config/helix/runtime
 
 # ALIAS #
-alias nvim="neovide --maximized"
+alias nv="neovide --maximized"
 
 # PATH #
 fish_add_path -aP $HOME/.cargo/bin
