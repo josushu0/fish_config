@@ -13,11 +13,12 @@ set -gx SUDO_EDITOR hx
 
 # ALIAS #
 alias nv="neovide --maximized"
+alias rg="rgrep"
 
 # PATH #
 fish_add_path -aP $HOME/.cargo/bin
 fish_add_path -aP $HOME/.local/bin
-fish_add_path -aP $HOME/.local/share/neovim/bin
+fish_add_path -aP $HOME/.local/share/bob/nvim-bin
 fish_add_path -aP $PNPM_HOME
 fish_add_path -aP $DENO_INSTALL/bin
 
